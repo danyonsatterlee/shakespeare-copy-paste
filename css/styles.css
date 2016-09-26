@@ -1,5 +1,5 @@
 
-
+@import 'https://fonts.googleapis.com/css?family=Cardo|Homemade+Apple';
 .draggable {
   border:1px solid black;
   background-color: white;
@@ -14,21 +14,20 @@ cursor: pointer;
 }
 
 body{
-
+background-image: url("../img/Old_paper.jpg");
 }
 
 
-
-#board{
-  height: 50%;
-  width: 60%;
+.center{
+  text-align: center;
+}
+h1{
+  font-family: 'Homemade Apple', cursive;
 }
 
-#insults{
-  height: 40%;
-  width: 60%;
+p{
+font-family: 'Cardo', serif;
 }
-
 
 .wrapper {
   border : 2px solid #000;
@@ -36,31 +35,37 @@ body{
 }
 
 .wrapper div {
-   min-height: 200px;
+   min-height: 400px;
    padding: 10px;
 }
 #shakespeare {
-
-  float:left;
+float:left;
   margin-right:20px;
-  width:300px;
-  height:700px;
-  border-right:2px solid #000;
-background-image: url("img/background.jpg");
+  min-width:300px;
+content: url("../img/shakespeare.png") ;
+
 }
-.helperverbs {
+#helperverbs {
   background-color: white;
   overflow:hidden;
   margin:10px;
   border:2px dashed #ccc;
-  min-height:170px;
+  min-height:100px;
 }
 #board {
-background-color: white;
-overflow:hidden;
-margin:10px;
-border:2px dashed #ccc;
-min-height:170px;
+  background-color: blue;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:400px;
+}
+
+#insults{
+  background-color: green;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:300px;
 }
 
 @media screen and (max-width: 400px ) {
