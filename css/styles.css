@@ -1,0 +1,74 @@
+
+
+.draggable {
+  border:1px solid black;
+  background-color: white;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 1px;
+  position: absolute;
+  font-family: cursive;
+  padding:3px;
+}
+.draggable:hover{
+cursor: pointer;
+}
+
+body{
+
+}
+
+
+
+#board{
+  height: 50%;
+  width: 60%;
+}
+
+#insults{
+  height: 40%;
+  width: 60%;
+}
+
+
+.wrapper {
+  border : 2px solid #000;
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+#shakespeare {
+
+  float:left;
+  margin-right:20px;
+  width:300px;
+  height:700px;
+  border-right:2px solid #000;
+background-image: url("img/background.jpg");
+}
+.helperverbs {
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:170px;
+}
+#board {
+background-color: white;
+overflow:hidden;
+margin:10px;
+border:2px dashed #ccc;
+min-height:170px;
+}
+
+@media screen and (max-width: 400px ) {
+   #shakespeare {
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;
+  }
+}
