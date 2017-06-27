@@ -30,7 +30,6 @@ font-family: 'Cardo', serif;
 }
 
 .wrapper {
-  border : 2px solid #000;
   overflow:hidden;
 }
 
@@ -41,31 +40,32 @@ font-family: 'Cardo', serif;
 #shakespeare {
 float:left;
   margin-right:20px;
+  margin-bottom: 0px;
   min-width:300px;
 content: url("../img/shakespeare.png") ;
 
 }
 #helperverbs {
-  background-color: white;
+
   overflow:hidden;
   margin:10px;
-  border:2px dashed #ccc;
+
   min-height:100px;
 }
 #board {
-  background-color: blue;
+
   overflow:hidden;
   margin:10px;
-  border:2px dashed #ccc;
+/*content: url("../img/board.png") ;*/
   min-height:400px;
 }
 
 #insults{
-  background-color: green;
+
   overflow:hidden;
   margin:10px;
-  border:2px dashed #ccc;
-  min-height:300px;
+
+  min-height:250px;
 }
 
 @media screen and (max-width: 400px ) {
@@ -74,6 +74,6 @@ content: url("../img/shakespeare.png") ;
     margin-right:0;
     width:auto;
     border:0;
-    border-bottom:2px solid #000;
+
   }
 }
